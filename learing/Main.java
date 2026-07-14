@@ -4,13 +4,23 @@
 //     }
 
 // }
+// class Main {
+//     public static void main(String[] args) {
+//         int n = 10;
+
+//         if (n % 2 == 0)
+//             System.out.println("Even");
+//         else
+//             System.out.println("Odd");
+//     }
+// }
 class Main {
     public static void main(String[] args) {
-        int n = 10;
+        int a = 10;
+        int b = 20;
 
-        if (n % 2 == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
+        int sum = a + b;
+
+        System.out.println(sum);
     }
 }
