@@ -14,13 +14,39 @@
 //             System.out.println("Odd");
 //     }
 // }
-class Main {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
+// class Main {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = 20;
 
-        int sum = a + b;
+//         int sum = a + b;
 
-        System.out.println(sum);
-    }
-}
+//         System.out.println(sum);
+//     }
+// }
+// class Main {
+//     public static void main(String[] args) {
+//         int[] arr = {10, 20, 30};
+
+//         int sum = 0;
+
+//         for (int i = 0; i < arr.length; i++) {
+//             sum = sum + arr[i];
+//         }
+
+//         System.out.println(sum);
+//     }
+// }
+// class Main {
+//     public static void main(String[] args) {
+//         int[] arr = {10, 20, 30};
+
+//         int sum = 0;
+
+//         for (int i = 0; i < arr.length; i++) {
+//             sum = sum + arr[i];
+//         }
+
+//         System.out.println(sum);
+//     }
+// }
