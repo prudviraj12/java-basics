@@ -47,49 +47,49 @@
 
 // System.out.println("Office Started...");
 // }
+// // }
+// package atal;
+
+// class Manager extends Thread {
+
+// public void run() {
+// for (int i = 1; i <= 5; i++) {
+// System.out.println("Manager is checking reports " + i);
+
+// try {
+// Thread.sleep(1000);
+// } catch (InterruptedException e) {
+// System.out.println(e);
 // }
-package atal;
+// }
+// }
+// }
 
-class Manager extends Thread {
+// class Employee extends Thread {
 
-    public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Manager is checking reports " + i);
+// public void run() {
+// 0 a3 for (int i = 1; i <= 5; i++) {
+// System.out.println("Employee is working on task " + i);
 
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                System.out.println(e);
-            }
-        }
-    }
-}
+// try {
+// Thread.sleep(1000);
+// } catch (InterruptedException e) {
+// System.out.println(e);
+// }
+// }
+// }
+// }
 
-class Employee extends Thread {
+// public class Office {
 
-    public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Employee is working on task " + i);
+// public static void main(String[] args) {
 
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                System.out.println(e);
-            }
-        }
-    }
-}
+// Manager manager = new Manager();
+// Employee employee = new Employee();
 
-public class Office {
+// manager.start();
+// employee.start();
 
-    public static void main(String[] args) {
-
-        Manager manager = new Manager();
-        Employee employee = new Employee();
-
-        manager.start();
-        employee.start();
-
-        System.out.println("Office Started...");
-    }
-}
+// System.out.println("Office Started...");
+// }
+// }
