@@ -1,6 +1,4 @@
-package oops;
-
-// public class xer
+package oops;   
 
 class office {
     String off_name;
